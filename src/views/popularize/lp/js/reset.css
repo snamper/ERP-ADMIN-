@@ -1,0 +1,24 @@
+/* css reset  */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0;}
+body { background:#fff; color:#000; font-size:14px; font-family: "微软雅黑"}
+td,th,caption { font-size:14px;overflow:hidden; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#000; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none;vertical-align: middle; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; border:none;}
+table { border-collapse:collapse; }
+
+textarea{ resize:none;}
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+/*----------------------------以上初始化----------------------------*/
+
+i{font-style:normal;font-size: 20px; }
+em{font-style:normal;font-size: 18px;}
+hr{border:none;border-bottom: 1px solid;}
+a:hover{text-decoration: none;}
+body{width:100%;overflow:hidden;}

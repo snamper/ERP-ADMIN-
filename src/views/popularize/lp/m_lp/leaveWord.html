@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width， initial-scale=1， user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+    <meta name="format-detection" content="telphone=no， email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 适应移动端end -->
+    <meta charset="utf-8">
+    
+    </head>
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaveWord.css" />
+
+    <body>
+    
+    <div class="leaveWord">
+        <div class="return">
+        <i><img src="images/return.png" alt="" /></i>
+        留言板
+    </div>
+        <div class="leaveWordbg">
+            <img src="images/word1.jpg" alt="" />
+        </div>
+    </div>
+    <div class="leaveWordForm">
+        <span><input type="text" value="请填写您的真实姓名或昵称*" id="formName"/></span>
+        <span><input type="text" value="请填写您的手机号码*" id="formNum"/></span>
+        <span>
+        <textarea  id="formMessage">留言板</textarea>
+        </span>
+        <span  class="leaveWordBtn">
+            
+                <a href="leaveWordTure.html"><input type="submit" value="确 认" /></a>
+            
+        </span>
+            
+       
+    </div>
+
+    </body>
+</html>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#formName").focus(function(){
+            var formname=$("#formName").val();
+            if(formname=="请填写您的真实姓名或昵称"){
+                $("#formName").val("");
+            };
+        });
+        $("#formName").blur(function(){
+        var formname=$("#formName").val();  
+         if(formname==""){
+                $("#formName").val("请填写您的真实姓名或昵称");
+            };   
+        });
+
+        $("#formNum").focus(function(){
+            var formNum=$("#formNum").val();
+            if(formNum=="请填写您的手机号码"){
+                $("#formNum").val("");
+            };
+        });
+        $("#formNum").blur(function(){
+        var formNum=$("#formNum").val();  
+         if(formNum==""){
+                $("#formNum").val("请填写您的手机号码");
+            };   
+        });
+
+        $("#formMessage").focus(function(){
+            var formMessage=$("#formMessage").html();
+            if(formMessage=="我是..."){
+                $("#formMessage").html("");
+            };
+        });
+        $("#formMessage").blur(function(){
+        var formMessage=$("#formMessage").html();  
+            if(formMessage==""){
+                $("#formMessage").html("我是...");
+            };   
+        });
+    })
+</script>

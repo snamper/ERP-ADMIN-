@@ -1,0 +1,31 @@
+
+p {
+    margin: 0px 0;
+}
+
+label {
+    display: inline-block;
+    min-width: 210px;
+}
+
+label.error {
+   
+    color: red;
+}
+
+input, button {
+    font-size: 36px;
+    line-height: 30px;
+    border: 1px solid #999;
+    min-width: 180px;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+input[type=submit], button {
+    margin-top: 20px;
+    font-size: 36px;
+    padding: 10px 0;
+}

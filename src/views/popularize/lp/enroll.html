@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <link rel="stylesheet" type="text/css" href="css/initialize.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/enroll.css" />
+    <link rel="stylesheet" href="css/style.css"> <!-- 表单验证 -->
+
+    
+    <body>
+    <!-- 头部 -->
+        <header>
+            <div class="header-show">
+                <div class="logo">
+                    <img src="images/wolflogo.jpg" alt="" />
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="http://www.gzwolf.com/gzwolf/">沃弗首页</a></li>
+                        <li>| </li>
+                        <li>联系电话：4009615377</li>
+                      <!--   <li class="btn-input"><a href="enroll.html"><input type="button" value="注册"/></a></li>
+                        <li class="btn-login"><input type="button" value="登陆" /></li> -->
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="box">
+            <div class="box-hd">
+                <h1>沃弗ERP试用申请</h1>
+            <h2>正确填写以下信息，提交成功后，客服人员将联系你，并发送试用账号/密码 供您使用。</h2>
+            </div>
+            
+            <div class="box-enroll">
+                <h3>试用申请</h3>
+                 <form id="box-enroll">
+                    <fieldset>
+                       
+                        <p>
+                            <label for="formName" >联系人<span class="mustFill">*</span></label>
+                            <input type="text" value="请填写您的真实姓名或昵称" id="formName" name="formName"/>
+                        </p>
+
+                        <p>
+                            <label for="formNum">
+                                手机号码
+                                <span class="mustFill">*</span></label>
+                            <input type="text" value="请填写您的手机号码" id="formNum" name="formNum"/>
+                        </p>
+
+                        <p>
+                            <label for="formMessage">留言板</label>
+                            <textarea id="formMessage" name="formMessage">如果您需要定制功能，请简单说明</textarea>
+                        </p>
+                    
+                            <input type="submit" value="登陆" class="btn-submit"/>
+                        
+                        
+        </fieldset>
+
+    </form>   
+
+
+
+              
+                
+            </div>
+        </div>
+
+    </body>
+</html>
+<script type="text/javascript" src="js/jquery-1.10.0.js"></script>
+<script type="text/javascript" src="js/jquery.validate-1.13.1.js"></script>
+<script type="text/javascript" src="js/enroll.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#box-enroll").validate({
+           
+            rules:{
+                formName:{
+                    required:true//必填
+                   
+                },
+                formNum:{
+                    required:true
+                    
+                }
+                
+            },
+
+            // 更改提示
+            messages:{
+               formName:{
+                    required:" "
+                },
+                formNum:{
+                    required:"亲,需要填写您的手机号码哦~"
+                  
+                }
+            }
+        });
+
+        $("#formName").focus(function(){
+            var formname=$("#formName").val();
+            if(formname=="请填写您的真实姓名或昵称"){
+                $("#formName").val("");
+            };
+        });
+        $("#formName").blur(function(){
+        var formname=$("#formName").val();  
+         if(formname==""){
+                $("#formName").val("请填写您的真实姓名或昵称");
+            };   
+        });
+
+        $("#formNum").focus(function(){
+            var formNum=$("#formNum").val();
+            if(formNum=="请填写您的手机号码"){
+                $("#formNum").val("");
+            };
+        });
+        $("#formNum").blur(function(){
+        var formNum=$("#formNum").val();  
+         if(formNum==""){
+                $("#formNum").val("请填写您的手机号码");
+            };   
+        });
+
+        $("#formMessage").focus(function(){
+            var formMessage=$("#formMessage").html();
+            if(formMessage=="如果您需要定制功能，请简单说明"){
+                $("#formMessage").html("");
+            };
+        });
+        $("#formMessage").blur(function(){
+        var formMessage=$("#formMessage").html();  
+            if(formMessage==""){
+                $("#formMessage").html("如果您需要定制功能，请简单说明");
+            };   
+        });
+
+
+
+        
+    });
+</script>

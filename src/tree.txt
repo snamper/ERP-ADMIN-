@@ -1,0 +1,572 @@
+文件夹 PATH 列表
+卷序列号为 9ED2-1337
+E:.
+│  app.js //启动页
+│  app.vue //模版页
+│  globalConstants.js
+│  routers.js //路由
+│
+│      
+├─components //公共组件
+│
+│          
+├─css //公共样式
+│    
+│      
+├─data
+│      .DS_Store
+│      print.json
+│      
+├─font //字体文件
+│     
+│      
+├─images //公共图片
+│  
+│          
+├─js js文件
+│  
+│              
+└─views
+    │  
+    │  
+    ├─API
+    │      index.vue
+    │      merchant-detail.vue
+    │      merchant.vue
+    │      modal-download-add.vue
+    │      modal-download-all.vue
+    │      modal-generate-file.vue
+    │      modal-refund-download.vue
+    │      modal-update-stock.vue
+    │      order.vue
+    │      refund.vue
+    │      sku.vue
+    │      
+    ├─archives
+    │  ├─client
+    │  │      client-product-price-add.vue
+    │  │      client-product-price.vue
+    │  │      product-grade-add.vue
+    │  │      product-grade-price.vue
+    │  │      
+    │  ├─firm
+    │  │      deploy-courier.vue
+    │  │      deploy-freight.vue
+    │  │      employee-auth.vue
+    │  │      employee-edit.vue
+    │  │      employees.vue
+    │  │      entrepot-add.vue
+    │  │      entrepot.vue
+    │  │      merchant-deliveries.vue
+    │  │      merchant-delivery-config.vue
+    │  │      merchant-delivery-edit.vue
+    │  │      select-area.vue
+    │  │      
+    │  ├─members
+    │  │      member-add.vue
+    │  │      member-grade-add.vue
+    │  │      member-grade.vue
+    │  │      member-order.vue
+    │  │      member.vue
+    │  │      
+    │  ├─merchant
+    │  │  │  client-add.vue
+    │  │  │  client-edit.vue
+    │  │  │  client-grade-add.vue
+    │  │  │  client-grade.vue
+    │  │  │  client.vue
+    │  │  │  commodity-add.vue
+    │  │  │  commodity-edit.vue
+    │  │  │  commodity.vue
+    │  │  │  configration-interface.vue
+    │  │  │  merchant-list-add.vue
+    │  │  │  merchant-list-edit.vue
+    │  │  │  merchant-list-see.vue
+    │  │  │  merchant-list.vue
+    │  │  │  merchant-stock.vue
+    │  │  │  merchant.vue
+    │  │  │  sell-deploy.vue
+    │  │  │  setting-sku.vue
+    │  │  │  sku-edit-barcode.vue
+    │  │  │  sku-edit.vue
+    │  │  │  sku-index.vue
+    │  │  │  sku-see.vue
+    │  │  │  sku.vue
+    │  │  │  vender-add.vue
+    │  │  │  vender-edit.vue
+    │  │  │  vender-price-add.vue
+    │  │  │  vender-price.vue
+    │  │  │  vender.vue
+    │  │  │  
+    │  │  ├─components
+    │  │  │      modal-editor.vue
+    │  │  │      modal-guide.vue
+    │  │  │      
+    │  │  └─group
+    │  │          merchant-group-edit.vue
+    │  │          merchant-group-list.vue
+    │  │          
+    │  ├─promotion
+    │  │  └─bonuspacks
+    │  │      │  bonuspacks-edit.vue
+    │  │      │  bonuspacks-list.vue
+    │  │      │  bonuspacks-record.vue
+    │  │      │  
+    │  │      └─components
+    │  │              sheet-list.vue
+    │  │              
+    │  ├─property
+    │  │      categories.vue
+    │  │      category-edit.vue
+    │  │      property-edit.vue
+    │  │      property.vue
+    │  │      
+    │  └─storage
+    │          choose-shelves.vue
+    │          clear-list.vue
+    │          storage-add.vue
+    │          storage-edit.vue
+    │          storage-query.vue
+    │          storage-see.vue
+    │          STWarehouse.vue
+    │          
+    ├─assortAndDeliveryGoods
+    │  ├─assortGoods
+    │  │  │  index.vue
+    │  │  │  lack.vue
+    │  │  │  modal-address.vue
+    │  │  │  modal-delivery-sheet.vue
+    │  │  │  modal-join-orders.vue
+    │  │  │  order-detail.vue
+    │  │  │  pick-edit-list.vue
+    │  │  │  pick-edit-merchant.vue
+    │  │  │  pick-edit.vue
+    │  │  │  pick-list-detail.vue
+    │  │  │  pick-list.vue
+    │  │  │  
+    │  │  └─circular
+    │  │          index.vue
+    │  │          modal-create-pick.vue
+    │  │          modal-delivery.vue
+    │  │          outstock.vue
+    │  │          refund.vue
+    │  │          
+    │  ├─deliveryGoods
+    │  │  │  assort-detail.vue
+    │  │  │  assort-head.vue
+    │  │  │  callback.vue
+    │  │  │  index.vue
+    │  │  │  pack.vue
+    │  │  │  pick.vue
+    │  │  │  scan.vue
+    │  │  │  weigh.vue
+    │  │  │  weighing.vue
+    │  │  │  
+    │  │  └─components
+    │  │          modal-change-box.vue
+    │  │          modal-number.vue
+    │  │          
+    │  └─instorage
+    │          index.vue
+    │          instorage-scan.vue
+    │          
+    ├─barCode
+    │  ├─codeManage
+    │  │      barCodeManage.vue
+    │  │      generateBarCode.vue
+    │  │      
+    │  └─relevanceOrder
+    │          relevanceOrder.vue
+    │          
+    ├─distribution
+    │  ├─agent
+    │  │      agent.vue
+    │  │      checkList.vue
+    │  │      checkListTable.vue
+    │  │      managementBlackList.vue
+    │  │      process.vue
+    │  │      repGoods.vue
+    │  │      superiorCheckList.vue
+    │  │      superiorCheckListTable.vue
+    │  │      
+    │  ├─agentArchives
+    │  │  │  agentArchives-add.vue
+    │  │  │  agentArchives.vue
+    │  │  │  
+    │  │  └─components
+    │  │          tree.vue
+    │  │          
+    │  ├─barCode
+    │  │  └─codeManage
+    │  │          barCodeManage.vue
+    │  │          generateBarCode.vue
+    │  │          
+    │  ├─orders
+    │  │      order-todo.vue
+    │  │      
+    │  ├─pointConfig
+    │  │      pointConfig-add.vue
+    │  │      pointConfig.vue
+    │  │      
+    │  ├─qrcode
+    │  │      qrcode.vue
+    │  │      qrcodeFlow.vue
+    │  │      qrcodeList.vue
+    │  │      
+    │  ├─rebates
+    │  │  ├─rebatesBalance
+    │  │  │      rebateRecord.vue
+    │  │  │      rebates.vue
+    │  │  │      returnRecord.vue
+    │  │  │      
+    │  │  └─supplierStock
+    │  │          modelViewCredit.vue
+    │  │          productStock.vue
+    │  │          supplierStock.vue
+    │  │          
+    │  └─relevanceOrder
+    │          modelBoxCode.vue
+    │          modelRelevanceCode.vue
+    │          relevanceOrder.vue
+    │          
+    ├─embranchment
+    │  ├─rebates
+    │  │      calculate-flow.vue
+    │  │      calculate.vue
+    │  │      rebateSetUpList.vue
+    │  │      SetUp.vue
+    │  │      
+    │  └─topUp
+    │          auditTopUp.vue
+    │          record.vue
+    │          viewPic.vue
+    │          
+    ├─empower
+    │      empower.vue
+    │      empowerFailure.vue
+    │      empowerSuccess.vue
+    │      
+    ├─fellow
+    ├─finance
+    │      account-way-add.vue
+    │      account-way.vue
+    │      client-balance-account-add.vue
+    │      client-balance-account.vue
+    │      deal-flow.vue
+    │      results-rebates-edit.vue
+    │      results-rebates.vue
+    │      
+    ├─log
+    │  │  find-password.vue
+    │  │  log.vue
+    │  │  login.vue
+    │  │  reset-password.vue
+    │  │  
+    │  └─registration
+    │          account-information.vue
+    │          register-next.vue
+    │          register-success.vue
+    │          register.vue
+    │          registration.vue
+    │          
+    ├─login
+    │      log.vue
+    │      login.vue
+    │      login1.vue
+    │      reset-password.vue
+    │      
+    ├─orders
+    │  ├─orderSale
+    │  │      order-detail.vue
+    │  │      order-sale.vue
+    │  │      
+    │  ├─orderTodo
+    │  │      edit-order.vue
+    │  │      index.vue
+    │  │      modal-address.vue
+    │  │      modal-check.vue
+    │  │      modal-delivery.vue
+    │  │      modal-remark.vue
+    │  │      modal-stock.vue
+    │  │      order-detail.vue
+    │  │      order-list.vue
+    │  │      order-todo.vue
+    │  │      type-order.vue
+    │  │      
+    │  └─refund
+    │      │  index.vue
+    │      │  refund-detail.vue
+    │      │  refund-list.vue
+    │      │  refund.vue
+    │      │  
+    │      └─instock
+    │              instock-edit.vue
+    │              instock-list.vue
+    │              instock.vue
+    │              
+    ├─outstock
+    │  │  index.vue
+    │  │  outstockList.vue
+    │  │  
+    │  └─components
+    │          modal-create-pick.vue
+    │          modal-delivery.vue
+    │          
+    ├─popularize
+    │  └─lp
+    │      │  enroll-true.html
+    │      │  enroll.html
+    │      │  index.html
+    │      │  
+    │      ├─css
+    │      │      enroll-true.css
+    │      │      enroll.css
+    │      │      header.css
+    │      │      index.css
+    │      │      initialize.css
+    │      │      style.css
+    │      │      
+    │      ├─images
+    │      │      askfor.png
+    │      │      authcode.jpg
+    │      │      btn-submit.png
+    │      │      choice1.jpg
+    │      │      choice1.png
+    │      │      choice2.png
+    │      │      choice3.png
+    │      │      choicebg.jpg
+    │      │      choicebtn1.jpg
+    │      │      choicebtn1.png
+    │      │      choicebtn2.png
+    │      │      choicebtn3.png
+    │      │      footer1.png
+    │      │      footer2.png
+    │      │      function1.png
+    │      │      function2.png
+    │      │      function3.png
+    │      │      function4.png
+    │      │      function5.png
+    │      │      function6.png
+    │      │      function7.png
+    │      │      function8.png
+    │      │      icon.png
+    │      │      indexbanner.jpg
+    │      │      indexlogo.jpg
+    │      │      indexlogo.png
+    │      │      refresh.jpg
+    │      │      serve1.jpg
+    │      │      serve2.jpg
+    │      │      serve3.jpg
+    │      │      serve4.jpg
+    │      │      serve5.jpg
+    │      │      serve6.jpg
+    │      │      servebg.jpg
+    │      │      superiority.jpg
+    │      │      wolfbg.jpg
+    │      │      wolflogo.jpg
+    │      │      
+    │      ├─js
+    │      │      enroll.js
+    │      │      jquery-1.10.0.js
+    │      │      jquery.validate-1.13.1.js
+    │      │      reset.css
+    │      │      
+    │      └─m_lp
+    │          │  index.html
+    │          │  leaveWord.html
+    │          │  leaveWordTure.html
+    │          │  
+    │          ├─css
+    │          │      global.css
+    │          │      index.css
+    │          │      leaveWord.css
+    │          │      leaveWordTure.css
+    │          │      
+    │          ├─images
+    │          │      askforBtn.png
+    │          │      banner.jpg
+    │          │      function.jpg
+    │          │      lightspot.jpg
+    │          │      logo.png
+    │          │      message.png
+    │          │      message3.png
+    │          │      project.jpg
+    │          │      project.png
+    │          │      return.png
+    │          │      teamwork.jpg
+    │          │      teamwork1.jpg
+    │          │      teamwork2.jpg
+    │          │      teamwork3.jpg
+    │          │      teamwork4.jpg
+    │          │      tell.png
+    │          │      threeProject.jpg
+    │          │      true.png
+    │          │      word1.jpg
+    │          │      
+    │          ├─js
+    │          │      jquery.min.js
+    │          │      
+    │          └─less
+    │                  global.css
+    │                  index.css
+    │                  leaveWord.css
+    │                  leaveWord.less
+    │                  leaveWordTure.less
+    │                  
+    ├─rebates
+    │      rebateRecord.vue
+    │      rebates.vue
+    │      returnRecord.vue
+    │      
+    ├─reportForm
+    │      add.vue
+    │      column-select.vue
+    │      createFormHtmlString.js
+    │      edit.vue
+    │      essential-attribute.vue
+    │      formView.vue
+    │      graph-settings.vue
+    │      index.vue
+    │      preview.vue
+    │      query-condition.vue
+    │      runReport.vue
+    │      SQL-statement.vue
+    │      
+    ├─statement
+    │      index.vue
+    │      
+    ├─stockSaleAndStore
+    │  ├─inventory
+    │  │      inv-adjust-edit.vue
+    │  │      inv-adjust.vue
+    │  │      transfer-stock-edit.vue
+    │  │      transfer-stock.vue
+    │  │      
+    │  └─purchase
+    │      │  inform-add.vue
+    │      │  inform-edit.vue
+    │      │  inform-see.vue
+    │      │  inform.vue
+    │      │  JXC-detail.vue
+    │      │  JXC.vue
+    │      │  plan-add.vue
+    │      │  plan-edit.vue
+    │      │  plan-list-choice.vue
+    │      │  plan-list.vue
+    │      │  plan-see.vue
+    │      │  plan.vue
+    │      │  sales-return-add.vue
+    │      │  sales-return.vue
+    │      │  
+    │      └─instock
+    │              instock-edit.vue
+    │              instock-list.vue
+    │              instock.vue
+    │              
+    ├─subject
+    │      index.vue
+    │      message-add.vue
+    │      message-edit.vue
+    │      message.vue
+    │      
+    ├─supplier
+    │  │  clientIssued.vue
+    │  │  commodityIssued.vue
+    │  │  entrepotIssued.vue
+    │  │  index.vue
+    │  │  shopIssued.vue
+    │  │  supplier-shop.vue
+    │  │  supplier-store.vue
+    │  │  supplierIssued.vue
+    │  │  
+    │  └─module
+    │          client.vue
+    │          commodity.vue
+    │          createCommodity.vue
+    │          createMerchant.vue
+    │          createStore.vue
+    │          entrepot.vue
+    │          shop.vue
+    │          store.vue
+    │          tradeManage.vue
+    │          vender.vue
+    │          
+    └─system
+        ├─compass
+        │  │  index.vue
+        │  │  
+        │  └─components
+        │          hotSales.vue
+        │          notice.vue
+        │          orderInfo.vue
+        │          salesReport.vue
+        │          services.vue
+        │          user.vue
+        │          widgetLogin.vue
+        │          widgetRegister.vue
+        │          
+        ├─config
+        │      articleConfig.vue
+        │      articleEdite.vue
+        │      config.vue
+        │      imageConfig.vue
+        │      imageConfigList.vue
+        │      modal-setting.vue
+        │      
+        ├─dashboard
+        │  │  index.vue
+        │  │  
+        │  └─components
+        │          hotSales.vue
+        │          notice.vue
+        │          orderInfo.vue
+        │          salesReport.vue
+        │          services.vue
+        │          user.vue
+        │          widgetLogin.vue
+        │          widgetRegister.vue
+        │          
+        ├─fissionPoster
+        │  │  agentTeam.vue
+        │  │  fissionPosterList.vue
+        │  │  posterEdit.vue
+        │  │  
+        │  └─components
+        │          tree.vue
+        │          
+        ├─information
+        │      edit.vue
+        │      list.vue
+        │      
+        ├─manage
+        │      power-list.vue
+        │      role-edit.vue
+        │      role.vue
+        │      
+        ├─notice
+        │      editor.vue
+        │      list.vue
+        │      see.vue
+        │      
+        ├─print
+        │      modal-img.vue
+        │      print-code.vue
+        │      print-delivery.vue
+        │      print-pack.vue
+        │      print-pick.vue
+        │      print-template.vue
+        │      
+        ├─systemManage
+        │      index.vue
+        │      trade-manage-add.vue
+        │      trade-manage-combo.vue
+        │      trade-manage-edit.vue
+        │      trade-manage-function.vue
+        │      trade-manage-menu.vue
+        │      trade-manage.vue
+        │      wechat-config.vue
+        │      wechat-model.vue
+        │      
+        └─weChatComfir
+                we-chat-comfir.vue
+                

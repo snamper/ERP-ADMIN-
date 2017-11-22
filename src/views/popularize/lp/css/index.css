@@ -1,0 +1,127 @@
+/* 
+* @Author: Marte
+* @Date:   2016-06-06 19:30:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-07 11:56:16
+*/
+.header-show .menu ul li,.header-show .menu ul li a{
+    color:#fff;
+}
+header,.header-show {
+    background: none;box-shadow: none;
+}
+.banner{
+    width: 100%;height: 670px; background: url(../images/indexbanner.jpg) no-repeat center;
+}
+.choice{
+    width: 100%;height: 746px; background: url(../images/choicebg.jpg) no-repeat center;
+}
+.choicehd{
+    padding-top:50px;
+}
+.choicehd h1,.functionhd h1{
+    color:#000000;font-size: 48px;text-align: center;line-height: 130px;
+}
+.choicehd h2,.functionhd h2{
+    color:#727272;font-size: 24px;text-align: center;font-family: "微软雅黑";line-height: 0px;
+}
+.choiceDown,.functionDown{
+    width: 1200px;margin:0 auto;margin-top:40px;
+}
+.choiceDown span{
+    display: block;
+}
+.choiceDown ul li{
+    float: left;margin:50px 10px  100px ;
+}
+.choiceDown .btn{
+    margin-left:94px;
+    margin-top:20px;
+}
+.functionDown ul li img{
+    margin-left:50px;
+}
+.functionDown ul li{
+    float:left;font-size: 14px;color:#686767;width: 270px;height: 315px;margin:30px 15px;
+}
+.functionDown ul li h3{
+    font-size: ;color:#21979F;font-size: 24px;text-align: center;line-height: 50px;
+}
+.functionDown ul li span.red h3{
+    color:#AB3A3A;
+}
+.functionDown ul li span.purple h3{
+    color:#9A67A6;
+}
+.functionDown ul li span.green h3{
+    color:#849A4B;
+}
+.functionDown ul li span.yellow h3{
+    color:#CEA355;
+}
+.functionDown ul li span.brown h3{
+    color:#9F7D50;
+}
+.functionhd{
+    padding:60px;
+}
+.superiority{
+    width: 100%;height: 720px;background: url(../images/superiority.jpg) no-repeat center;clear: both;
+}
+.superiority{
+    width: 100%;height: 1063px;background: url(../images/servebg.jpg) no-repeat center;clear: both;
+}
+.servebtn{
+    width: 362px;margin:0 auto;margin-bottom: 50px;
+}
+footer{
+    width: 100%;height: 630px;color:#fff;font-size: 12px;background: #000;
+}
+.footerContent{
+    width: 100%;background: #222627;border-bottom:1px solid #2D3132;height: 450px;
+}
+.footerContentShow{
+    width: 1020px;margin:0 auto;padding-top:50px;
+}
+.footerContentShow h4{
+    font-size: 14px; color:#BABABA;
+}
+.footerContentShow ul{
+    width: 100%;clear:both;
+}
+.footerContentShow ul li{
+    float:left;margin:15px 20px;width: 300px;
+}
+.footerDown{
+    width: 100%;height: 284px;background: #1A1B1D;border-top:1px solid #212224;margin-top:1px;
+}
+.footerDownShow{
+    width: 1040px;margin:0 auto;
+}
+.footerDown span{
+    display:block;margin-top:20px;
+}
+.footerDown ul li{
+    width: 300px;float:left;margin:40px 10px;border-right:3px solid #232628;padding-right:20px;
+}
+.footerDown ul li:nth-of-type(3){
+    border-right:0;
+}
+.footerDown span i{
+    float:left;width: 44px;height: 48px;
+}
+.footerDown span p.bigtext{
+    font-size: 16px;color:#BABABA;line-height: 30px;
+}
+.footerDown h1{
+    text-align: center;font-size: 18px;color:#FFFFFF;line-height: 30px;}
+.footerDown h6{
+    text-align: center;font-size: 12px;color:#FFFFFF;}
+.footerDown span em{
+    float:right;font-size: 14px;color:#FFFFFF;width: 250px;
+}
+.footerDown .box{
+    width: 100%;height: 10px;border-bottom: 1px dashed #525353;margin-bottom: 20px;clear:both;
+}
+
+

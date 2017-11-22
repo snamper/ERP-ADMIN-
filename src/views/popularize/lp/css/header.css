@@ -1,0 +1,48 @@
+/* 
+* @Author: Monroe
+* @Date:   2016-06-06 15:35:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-06 18:13:37
+*/
+
+header{
+    background: #F4F4F4;
+    width: 100%;
+    height: 70px;
+    -webkit-box-shadow:0 2px 4px #999; 
+    box-shadow:0 2px 4px #999;   
+
+}
+.header-show{
+    background: #F4F4F4;
+    width: 1200px;
+    margin:0 auto;
+    height: 70px;
+}
+.header-show .logo{
+    float:left;
+    padding-top:22px;
+}
+.header-show .menu{
+    float:right;
+}
+.header-show .menu ul li{
+    float:left;
+    color:#33528A;
+    font-size: 16px;
+    line-height: 70px;
+    margin:0 2px;
+
+}
+.header-show .menu ul li a{
+    color:#33528A;
+    font-size: 16px;
+    line-height: 70px;
+}
+.header-show .menu ul li input{
+    width: 70px;height: 32px;line-height: 32px;font-size: 16px;color:#fff;background: #33528A;border-radius: 3px;font-family: "微软雅黑";outline:none;
+    margin: 0 5px;cursor:pointer;
+}
+.header-show .menu ul li.btn-login input{
+    background: #0F7AB3;
+}

@@ -1,0 +1,69 @@
+/* 
+* @Author: Marte
+* @Date:   2016-06-07 14:18:33
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-07 16:18:39
+*/
+html,body{
+    width: 100%;
+}
+.banner,.function,.project,.threeProject,.lightspot{
+    width: 100%;position: relative;
+}
+.banner img,.function img,.project img,.threeProject img,.lightspot img{
+    width: 100%;
+}
+.project .projectBtn img{
+    width: 45%;position: absolute;bottom:3%;left:50%;margin-left:-22%;
+}
+.teamwork{
+    position: relative;
+}
+.teamworkbg{
+    position: absolute;left:0;top:0;width: 100%;
+}
+.teamworkbg img{
+    width: 100%;
+}
+.teamworkHd,.teamworkDown{
+    position:relative; z-index: 3;
+}
+.teamwork h1{
+    font-size: 2.5rem;color:#000000;text-align: center;font-weight: 300;font-family: "微软雅黑";
+}
+.teamwork h6{
+    font-size: 1.5rem;color:#8A8B8B;text-align: center;font-weight: 300;
+}
+.teamworkHd{
+    padding-top:60px;
+}
+.teamworkDown ul{
+    width:70%;margin:0 auto;margin-top:50px;
+}
+.teamworkDown ul li{
+    float:left;margin:0;width: 50%;margin-bottom: 7%;
+}
+.teamworkDown ul li a{
+    display: block;margin-right: 5px;
+}
+.teamworkDown ul li a img{
+    width: 100%;
+}
+.teamworkDown{
+    padding-bottom: 50px;position: relative;
+}
+.teamworkBtn{
+    width:30%;margin-left:35%;
+}
+.teamworkBtn img{
+    width: 100%;
+}
+footer{
+    margin-top:-10px;
+}
+.footerHd{
+    width: 100%;height: 90px;background: #222627;font-size: 80%;color:#BABABA;text-align: center;line-height: 40px;padding-top:6px;
+}
+.footerDown{
+     width: 100%;height: 70px;background: #1A1B1D;font-size: 80%;color:#BABABA;border-top: 1px solid #17181A;text-align: center;line-height: 70px;
+}

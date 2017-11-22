@@ -1,0 +1,106 @@
+/* 
+* @Author: Monroe
+* @Date:   2016-06-06 15:35:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-16 17:19:23
+*/
+
+
+
+.box{
+    width: 100%;
+    height: 1023px;
+    background:url(../images/wolfbg.jpg) no-repeat;
+    text-align: center;
+    color:#fff;
+}
+.box-hd{
+    width: 1100px;border-bottom: 1px solid #B1A7C4;margin:0 auto;padding-bottom: 50px;margin-bottom: 30px;
+}
+.box h1{
+    font-size: 32px;line-height:120px;
+}
+.box h2{
+    font-size: 22px;line-height:10px;
+
+}
+.box-enroll{
+    width: 758px;
+    height: 610px;
+    background: #fff;
+    margin:0 auto;
+}
+.box-enroll #box-enroll p{
+    color:#000;
+    margin:0 0 20px;
+    height: 70px;
+}
+.box-enroll label:nth-of-type(1){
+    font-size: 24px;
+    text-align: right;
+    margin-right: 20px;
+    width: 120px;
+    display:inline-block;
+    height: 52px;
+    color: #000;
+}
+.box-enroll label:nth-of-type(2){
+    margin:0;padding:0;
+}
+
+fieldset{
+    border:none;
+}
+.box-enroll h3{
+    color:#FE830B;
+    font-size: 36px;
+    line-height: 120px;
+}
+.box-enroll input,.box-enroll textarea{
+    width: 440px;height:52px;border: 1px solid #8E8E8E;padding-left:8px;font-size: 18px;color:#6F6F6F;outline:none;margin-right: 65px;
+}
+
+.box-enroll  textarea{
+    padding:4px;height:7.25rem;margin:0;margin-top:10px;margin-right: 65px;
+}
+.box-enroll .btn-submit{
+    width: 292px;height: 64px;background: url(../images/btn-submit.png) no-repeat;font-size: 24px;color:#FFFFFF;font-family: "微软雅黑";
+    margin-top:92px;outline:none;border: none;
+}
+.box-enroll p:nth-of-type(3) label{
+    margin-top: -118px;vertical-align: middle;
+}
+#formNum-error,#formName-error,.error{
+    font-size: 12px;line-height: 0;text-align: left;
+}
+.box-enroll p.input-width input{
+    width: 258px;display:inline-block;outline:none;
+   
+}
+
+.box-enroll  .auth-code,.box-enroll .auth-code .imgwidth img,.box-enroll  .auth-code .imgwidth{
+    display:inline-block;margin-top:-5px;margin-left:10px;
+}
+.box-enroll  .auth-code .imgwidth img{
+    width: 106px;height: 52px;
+}
+.box-enroll .auth-code {
+    width: 208px;
+}
+
+.btn-submit{
+    clear:both;cursor:pointer;
+}
+.btn-submit{
+    width: 100%;height: 100%;cursor:pointer;
+}
+.box-enroll .auth-code .refresh{
+    margin-left:15px;cursor:pointer;margin-top:-5px;outline:none;
+}
+.box-enroll .auth-code .getbtn{
+    width: 160px;height: 52px;color:#000;font-size: 22px;font-family: "微软雅黑";cursor:pointer;outline:none;
+}
+
+.mustFill{
+    color:red;
+}

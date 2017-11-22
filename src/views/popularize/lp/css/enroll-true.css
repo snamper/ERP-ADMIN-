@@ -1,0 +1,28 @@
+/* 
+* @Author: Marte
+* @Date:   2016-06-06 18:19:33
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-06-06 19:22:42
+*/
+.box{
+    padding-top:30px;background: #F1F1F1;
+}
+.boxShow{
+    width: 1150px;height: 710px;background: #fff;margin:0 auto;padding-top:156px;
+}
+.boxShow h1{
+    font-size: 22px; color:#333333;line-height: 70px;
+}
+.boxShow h2{
+    font-size: 18px; color:#595959;margin-left:30px;
+
+}
+.boxShow .returnHome a{
+    display:block;width: 218px;height: 44px;background: #0772BA;font-size: 18px;color:#fff;border-radius: 5px;line-height: 44px;margin:40px auto;
+}
+.boxTop{
+    border-bottom: 1px solid #EBEBEB;
+}
+.boxBottom{
+    color:#3A3A3A;text-align: right;width: 1060px;margin:0 auto;font-size: 16px;margin-top:20px;font-family:"微软雅黑";
+}
